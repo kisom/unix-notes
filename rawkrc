@@ -1,0 +1,17 @@
+mdparser="pandoc -t html"
+hdr_tpl="templates/hdr.tpl"
+ftr_tpl="templates/ftr.tpl"
+site_title="unix notes"
+site_subtitle="/"
+stylesheet="templates/style.css"
+
+# blacklist definition - in the form of grep regex
+bl="$bl ^index\..*$"            # don't link to index files
+bl="$bl ^notes$"                # don't link to note directory
+bl="$bl ^notes_..*$"            # don't link to note files
+bl="$bl ^images$"               # don't link to image dir
+bl="$bl ^files$"                # don't link to files dir
+bl="$bl ^styles$"               # don't link to styles dir
+bl="$bl ^favicon\..*$"          # don't link to the favicon
+bl="$bl ^40[34].*$"             # don't link to 404 page
+
