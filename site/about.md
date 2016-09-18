@@ -13,6 +13,12 @@ the first time in over a year that I wrote a serious (albeit short)
 [technical blog post](http://kyleisom.net/blog/2016/09/17/illumos-processes/)
 and indeed, a weekend doing something technical.
 
+I'd previously had a site for Unix programming, but it was more from the
+perspective of a systems programmer. It included projects I'd done like
+writing a webserver or a secure file removal tool. I stole this site's
+styling from that site, though this site is aimed more at implementations
+of Unix.
+
 ## DESCRIPTION
 
 With this in mind, I have a new goal: end up as an illumos kernel
