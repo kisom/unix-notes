@@ -1,5 +1,9 @@
-# tyrfingr
+# unix-notes
 
-tyrfingr is a site i use for the finished versions of my projects. it is
-generated using rawk.
- 
+collection of notes on Unix systems, primarily documenting
+my journey as a Unix kernel developer.
+
+likely entirely illumos-based.
+
+current site: https://unix.kyleisom.net/
+
