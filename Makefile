@@ -20,7 +20,7 @@ site:
 	bin/rawk $(TARGET)
 
 install: 
-	rsync -auvz -e "ssh" --delete-after $(SITE).build/ $(RHOST)
+	rsync -auvz -e "ssh" --delete-before $(SITE).build/ $(RHOST)
 
 clean:
 	rm -rf $(SITE).build
