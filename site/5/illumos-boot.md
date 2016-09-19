@@ -4,5 +4,9 @@ boot(5)
 
 An illustrated overview of the illumos boot process.
 
+## VOID MAIN
 
-<span style="text-align: center">September 18, 2016</span>
+The illumos kernel is a (mostly) C program, and like all C programs,
+it starts with `main`.
+
+September 18, 2016

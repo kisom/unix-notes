@@ -1,4 +1,5 @@
 mdparser="pandoc -t html"
+#mdparser=smu
 hdr_tpl="templates/hdr.tpl"
 ftr_tpl="templates/ftr.tpl"
 site_title="unix notes"
