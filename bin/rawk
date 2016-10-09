@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # .:[ rawk - rage against web frameworks ]:.
 # 
 # generates a static content from a tree of markdown files and other content
@@ -51,7 +51,7 @@ rawk_submenu() {
 
     for filter in $bl
     do
-        fc="$fc | grep -ve '$filter'"
+        fc="$fc | grep -v '$filter'"
     done
     
     file_list="$(eval ls -1 $(echo ${1%/*}) $fc | sed -e 's/\.md\([ ]*\)/\.html\1/g' | uniq)"
